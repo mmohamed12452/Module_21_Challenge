@@ -5,6 +5,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/googleboo
   useUnifiedTopology: true,
   useCreateIndex: true,
   useFindAndModify: false,
+  dbName: "book-search-db",
 });
 
 module.exports = mongoose.connection;
