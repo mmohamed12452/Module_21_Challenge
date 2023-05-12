@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Book Search Engine is a site in which a user is able to search for any book title or author and search results containing that search will appear in the query below.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
